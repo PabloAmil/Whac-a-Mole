@@ -1,0 +1,39 @@
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(./assets/ground.jpg);
+    background-repeat: repeat;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border:solid black 1px;
+    
+}
+
+.mole {
+    background-image: url(./assets/mole.jpg);
+    background-size: cover;
+}
+
+.smashed {
+    background-image: url(./assets/bam.jpg);
+    background-size: cover;
+}
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    height: 120px;
+    width: 120px;
+    background-image:linear-gradient(to right, #15c454, #00d4ff ) ;
+}
+
